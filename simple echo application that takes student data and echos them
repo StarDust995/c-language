@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+  
+  //take the name
+  char name;
+  printf("please enter the first character of you name here ");
+  scanf("%c",&name);
+  
+  //take the id
+  unsigned int id;
+  printf("please enter your id ");
+  scanf("%d",&id);
+  
+  //take the grade
+  float grade;
+  printf("enter your grade ");
+  scanf("%f",&grade);
+  
+  //result
+  printf("student data\n");
+  printf("student name: %c\n", name);
+  printf("student id: %d\n",id);
+  printf("student grade: %f",grade);   
+ }
